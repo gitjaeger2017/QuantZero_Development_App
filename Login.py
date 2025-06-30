@@ -40,7 +40,7 @@ def main():
         st.title(f"🔍 Welcome, {st.session_state.username}")
 
         report_options = {
-            "High-Level Summary": "report1.md",
+            "Web Scan Summary": "webreport1.md",
             "Vulnerability Timeline": "report2.md",
             "Top Exploitable Paths": "report3.md",
             "Remediation Recommendations": "report4.md"
